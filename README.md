@@ -139,10 +139,10 @@ offered accordingly.
 
 | node.js | Supported               | Tested                                                    | [Packaged Distributions](#packaged-distributions) | [Docker images](#docker-container) from `master` | [Docker images](#docker-container) from `develop` |
 |:--------|:------------------------|:----------------------------------------------------------|:--------------------------------------------------|:-------------------------------------------------|:--------------------------------------------------|
-| 22.x    | :x:                     | :x:                                                       |                                                   |                                                  |                                                   |
+| 23.x    | :x:                     | :x:                                                       |                                                   |                                                  |                                                   |
+| 22.x    | :heavy_check_mark:      | :heavy_check_mark:                                        | Windows (`x64`), MacOS (`x64`), Linux (`x64`)     |                                                  |                                                   |
 | 21.x    | ( :heavy_check_mark:  ) | :heavy_check_mark:                                        | Windows (`x64`), MacOS (`x64`), Linux (`x64`)     |                                                  |                                                   |
 | 20.x    | :heavy_check_mark:      | :heavy_check_mark:                                        | Windows (`x64`), MacOS (`x64`), Linux (`x64`)     | `latest` (`linux/amd64`, `linux/arm64`)          | `snapshot` (`linux/amd64`, `linux/arm64`)         |
-| 20.6.0  | :x:                     | :bug: https://github.com/angular/angular-cli/issues/25782 |                                                   |                                                  |                                                   |
 | 19.x    | ( :heavy_check_mark: )  | :x:                                                       |                                                   |                                                  |                                                   |
 | 18.x    | :heavy_check_mark:      | :heavy_check_mark:                                        | Windows (`x64`), MacOS (`x64`), Linux (`x64`)     |                                                  |                                                   |
 | <18.x   | :x:                     | :x:                                                       |                                                   |                                                  |                                                   |
@@ -169,9 +169,9 @@ guide. If this does not solve your issue please post your specific problem or qu
 OWASP Juice Shop comes with an official companion guide eBook. It will give you a complete overview of all
 vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even
 find complete step-by-step solutions to every challenge. Extensive documentation of
-[custom re-branding](https://pwning.owasp-juice.shop/part1/customization.html),
-[CTF-support](https://pwning.owasp-juice.shop/part1/ctf.html),
-[trainer's guide](https://pwning.owasp-juice.shop/appendix/trainers.html)
+[custom re-branding](https://pwning.owasp-juice.shop/companion-guide/latest/part4/customization.html),
+[CTF-support](https://pwning.owasp-juice.shop/companion-guide/latest/part4/ctf.html),
+[trainer's guide](https://pwning.owasp-juice.shop/companion-guide/latest/part4/trainers.html)
 and much more is also included.
 
 [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) is published under
